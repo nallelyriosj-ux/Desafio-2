@@ -20,7 +20,7 @@ void Estadisticas::nuevoObjeto() {
 
 void Estadisticas::mostrarReporteEficiencia() {
     std::cout << "\n========================================" << std::endl;
-    std::cout << "       REPORTE DE EFICIENCIA UDEA        " << std::endl;
+    std::cout << "       Eficiencia del codigo       " << std::endl;
     std::cout << "========================================" << std::endl;
     std::cout << " Memoria Dinamica Estimada: " << bytesReservados << " bytes" << std::endl;
     std::cout << " Total de Iteraciones/Pasos: " << totalIteraciones << std::endl;
